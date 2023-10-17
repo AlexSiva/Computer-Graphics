@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
+
+.components{
+    display: flex;
+    flex-direction: column;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+}
+
+.element p{
+    text-align: center;
+}
+
+.element input{
+    width: 70px;
+}
+
+.component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 10px 0px;
+    padding: 5px;
+    width: 350px;
+}
+
+#canvas{
+    align-self: flex-end;
+    margin: 5px 50px 10px 50px;
+}
+
+#chooser{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 150px;
+    margin: 10px 50px 5px 50px;
+}
+
+.view p{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+
+.view{
+    display: flex;
+    flex-direction: column;
+}
+
+    
